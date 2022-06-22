@@ -7,4 +7,4 @@ console.log(text.match(/\d\d-\d\d\d\d-\d\d\d\d/g)); // gあり：全パターン
 
 console.log(text.match(/\d{2,5}-\d{1,4}-\d{4}/g)); // \d{2,5} 2から5桁
 
-console.log(text.match(/\d{2,5}[-(]\d{1,4}[-)]\d{4}/g)); // [-(] -、もしくわ(
+console.log(text.match(/\d{2,5}[-(]\d{1,4}[-)]\d{4}/g)); // [-(] -、若しくは(の1文字
